@@ -1,0 +1,9 @@
+[Unit]
+Description=PHP script that receives MQTT Chirpstack data and sends it to BDD and CSV file
+
+[Service]
+Type=simple
+ExecStart=php /var/www/html/service/main.php
+
+[Install]
+WantedBy=multi-user.target

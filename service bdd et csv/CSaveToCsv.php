@@ -11,12 +11,11 @@ class CSV {
     }
     /*
     $nodeName correspond à $name de la class Node
-    $column correspond à un tableau de valeur ($column de la class CTable)
-    timestamp, voc, co2, temperature, humidite
+    $column correspond à un tableau de valeur
+    timestamp, co2, temperature, humidite
+    
     /!\Notre fichier .csv sera au nom du noeud.csv /!\
-    */
 
-    /*
     $_data correspond à a un tableau de chaine de caractère
     */
     public function saveData($_data) {

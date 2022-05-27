@@ -6,7 +6,7 @@ $port = '1883';
 
 $boopyTopic = 'application/3/device/70b3d57ed0056fe/event/up'; 
 
-$co2Topic = 'application/3/device/70b3d57ed0048d3e/event/up';
+$co2Topic = 'application/4/device/70b3d57ed0048d3e/event/up';
 //                      $_server, $_port, $_username, $_password, $_id, $_topic, $_nodeName
 $co2Node = new CNode($server, $port,'','','co2Id', $co2Topic, 'co2', 
                     array('timestamp', 'co2', 'temperature', 'humidite'));
